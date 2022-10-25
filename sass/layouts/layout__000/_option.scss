@@ -1,0 +1,48 @@
+.option {
+    padding: 120px 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    font-family: $josefinSansFont;
+    &--left{
+        background-image: url('../img/option1/render576.webp');
+    }
+    &--right{
+        background-image: url('../img/option2/spain576.webp');
+    }
+    &__block {
+        padding: 44px 32px;
+        background-color: rgba(35, 35, 35, 0.9);
+    }
+    &__country{
+        display: block;
+        font-size: rem(20px);
+        font-weight: 300;
+        line-height: 1.4;
+        letter-spacing: 0.1;
+        margin-bottom: 16px;
+    }
+    &__title {
+        margin-bottom: 16px;
+    }
+    &__text {
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .option--left {
+        background-image: url('../img/option1/render576@2x.webp');
+    }
+    .option--right {
+        background-image: url('../img/option2/spain576@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .option--left{
+        background-image: url('../img/option1/render576@3x.webp');
+    }
+    .option--right {
+        background-image: url('../img/option2/spain576@3x.webp');
+    }
+}

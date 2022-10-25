@@ -1,0 +1,33 @@
+.to-do {  
+padding: 87px 0 45px 0;
+    &__list{
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 35px;
+        background-image: url('../img/line.png');
+        background-repeat: no-repeat;
+        background-position: center 0;
+    }
+    &__item{
+        width: 320px;
+        background-color: $darkGrayColor;
+        &:not(:last-child) {
+            margin: 0px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 96px;
+            height: 96px;
+            margin-bottom: 8px;
+        }
+        span {
+            color: $whiteColor;
+            text-transform: capitalize;
+            font-family: $aleoFont;
+            font-weight: 400;
+            font-size: rem(36px);
+        }
+    }
+}

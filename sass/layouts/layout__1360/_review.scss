@@ -1,0 +1,14 @@
+.review {
+    background-image: url('../img/reviewbg/rbg1360.webp');
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .review {
+        background-image: url('../img/reviewbg/rbg1360@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .review {
+        background-image: url('../img/reviewbg/rbg1360@3x.webp');
+    }
+}

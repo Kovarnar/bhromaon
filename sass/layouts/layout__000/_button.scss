@@ -1,0 +1,53 @@
+.container {
+    .btn {
+        position: relative;
+        width: 213px;
+        min-height: 60px;
+        a{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $accentColor;
+            
+            text-transform: uppercase;
+            font-family: $aleoFont;
+            font-weight: 400;
+            font-size: rem(16px);
+            letter-spacing: 0.073rem;
+            overflow: hidden;
+            transition: .5s;
+            &::before {
+                content: '';
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                width: 50%;
+                height: 200%;
+                background-color: $accentDarkerColor;
+                transform: skewX(45deg);
+                transition: 1s;
+            }
+        }
+        &:hover {
+            a {
+                letter-spacing: 0.15rem;
+                &::before {
+                    width: 200%;
+                    height: 200%;
+                    transform: skewX(45deg);
+                }
+            }
+        }
+        &:active {
+            transform: scale(0.9);
+            transition: transform 1s ease;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.header {
+    .icon {
+        width: 16px;
+        height: 16px;
+        fill: $whiteColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.to-do {
+    .icon {
+        width: 64px;
+        height: 64px;
+        &--accent {
+            fill: $accentColor;
+        }
+        &--red {
+            fill: $redColor;
+        }
+        &--blue {
+            fill: $blueColor;
+        }
+    }
+}
+.review {
+    .icon {
+        width: 20px;
+        height: 20px;
+        fill: $accentColor;
+    }
+}
+.footer {
+    .icon {
+        width: 24px;
+        height: 24px;
+        fill: $whiteColor;
+        transition: all .5s ease;
+        &--blue {
+            fill: $accentColor;
+        }
+        &:hover {
+            transform: scale(1.5);
+            fill: $redColor;
+        }
+        &:active {
+            transform: scale(0.9);
+        }
+    }
+}

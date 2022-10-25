@@ -1,0 +1,39 @@
+.why {
+    background-image: url('../img/whybg/whybg1024.webp');
+    .container {
+        grid-template-columns: 550px 386px;
+        grid-template-rows: 1fr;
+        gap: 0;
+        justify-content: space-between;
+        h2.title, p.text {
+            text-align: start;
+        }
+    }
+    &__images {
+        order: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 16x;
+        .why__image--first {
+            justify-self: start;
+        }
+        .why__image--second {
+            justify-self: end;
+        }
+    }
+    &__content {
+        order: -1;
+        align-items: start;
+    }
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg1024@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg1024@3x.webp');
+    }
+}

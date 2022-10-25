@@ -1,0 +1,59 @@
+.why {
+    padding: 60px 0;
+    background-image: url('../img/whybg/whybg576.webp');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        gap: 37px;
+    }
+    &__images {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 18px;
+        picture {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                max-width: 100%;
+                height: unset;
+                object-fit: cover;
+                justify-self: center;
+            }
+        }
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 24px;
+    }
+    &__text {
+        &:not(:last-child) {
+            margin-bottom: 28px;
+        }
+        &:last-child {
+            padding-bottom: 24px;
+        }
+    }
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg576@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg576@3x.webp');
+    }
+}

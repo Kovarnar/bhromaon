@@ -1,0 +1,14 @@
+.why {
+    background-image: url('../img/whybg/whybg768.webp');
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg768@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg768@3x.webp');
+    }
+}

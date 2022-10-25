@@ -1,0 +1,11 @@
+.why {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+    &__images {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 24px;
+    }
+}

@@ -1,0 +1,22 @@
+.option--left {
+    background-image: url('../img/option1/render768.webp');
+}
+.option--right {
+    background-image: url('../img/option2/spain768.webp');
+}
+@media screen and (min-resolution: 2dppx) {
+    .option--left {
+        background-image: url('../img/option1/render768@2x.webp');
+    }
+    .option--right {
+        background-image: url('../img/option2/spain768@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .option--left{
+        background-image: url('../img/option1/render768@3x.webp');
+    }
+    .option--right {
+        background-image: url('../img/option2/spain768@3x.webp');
+    }
+}

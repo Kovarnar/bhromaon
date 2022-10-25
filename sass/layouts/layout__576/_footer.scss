@@ -1,0 +1,11 @@
+.footer {
+    &__logo {
+        width: 168px;
+        height: 20px;
+    }
+    &__item {
+        &:not(:last-child) {
+            margin-right: 32px;
+        }
+    }
+}

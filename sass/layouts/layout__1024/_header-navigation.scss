@@ -1,0 +1,14 @@
+.header{
+    &__navigation {
+        .container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
+.header{
+    &__logo {
+        margin: 0;
+        margin-right: 100px;
+    }
+}

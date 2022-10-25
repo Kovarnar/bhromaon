@@ -1,0 +1,49 @@
+.review {
+    background-image: url('../img/reviewbg/rbg576.webp');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 60px 0 120px;
+    &__title {
+        margin-bottom: 60px;
+    }
+    &__block {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .block {
+        &__image {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                justify-self: center;
+            }
+        }
+        &__coment {
+            padding: 30px;
+            background-color: $darkGrayColor;
+        }
+        &__title {
+            display: block;
+            margin-bottom: 10px;
+        }
+        &__text {
+            .icon {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .review {
+        background-image: url('../img/reviewbg/rbg576@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .review {
+        background-image: url('../img/reviewbg/rbg576@3x.webp');
+    }
+}

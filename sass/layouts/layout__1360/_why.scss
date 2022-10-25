@@ -1,0 +1,21 @@
+.why {
+    background-image: url('../img/whybg/whybg1360.webp');
+    .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+    &__images {
+        padding-left: 110px;
+    }
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg1360@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .why {
+        background-image: url('../img/whybg/whybg1360@3x.webp');
+    }
+}

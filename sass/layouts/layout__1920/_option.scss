@@ -1,0 +1,28 @@
+.option {
+    &--left {
+        background-image: url('../img/option1/render1920.webp');
+    }
+    &--right {
+        background-image: url('../img/option2/spain1920.webp');
+    }
+    &__block {
+        width: 648px;
+    }
+}
+
+@media screen and (min-resolution: 2dppx) {
+    .option--left {
+        background-image: url('../img/option1/render1920@2x.webp');
+    }
+    .option--right {
+        background-image: url('../img/option2/spain1920@2x.webp');
+    }
+}
+@media screen and (min-resolution: 3dppx) {
+    .option--left{
+        background-image: url('../img/option1/render1920@3x.webp');
+    }
+    .option--right {
+        background-image: url('../img/option2/spain1920@3x.webp');
+    }
+}
