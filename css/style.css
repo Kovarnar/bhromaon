@@ -274,6 +274,9 @@ img {
   text-transform: capitalize;
   color: #999;
 }
+.header__hero .container .header__serch input:focus {
+  background-color: rgba(0, 162, 255, 0.15);
+}
 .header__hero .container .header__serch .button {
   display: flex;
   justify-content: center;
