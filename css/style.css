@@ -339,12 +339,12 @@ img {
 }
 @media screen and (min-resolution: 2dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg576@2x.webp");
+    background-image: url("../img/header/headerbg576@2x.webp");
   }
 }
 @media screen and (min-resolution: 3dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg576@3x.webp");
+    background-image: url("../img/header/headerbg576@3x.webp");
   }
 }
 .header__navigation {
@@ -786,12 +786,12 @@ img {
 }
 @media only screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg768@2x.webp");
+    background-image: url("../img/header/headerbg768@2x.webp");
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 3dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg768@3x.webp");
+    background-image: url("../img/header/headerbg768@3x.webp");
   }
 }
 @media only screen and (min-width: 768px) {
@@ -888,12 +888,12 @@ img {
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 2dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg1024@2x.webp");
+    background-image: url("../img/header/headerbg1024@2x.webp");
   }
 }
 @media only screen and (min-width: 1024px) and (min-resolution: 3dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg1024@3x.webp");
+    background-image: url("../img/header/headerbg1024@3x.webp");
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1052,12 +1052,12 @@ img {
 }
 @media only screen and (min-width: 1360px) and (min-resolution: 2dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg1360@2x.webp");
+    background-image: url("../img/header/headerbg1360@2x.webp");
   }
 }
 @media only screen and (min-width: 1360px) and (min-resolution: 3dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg1360@3x.webp");
+    background-image: url("../img/header/headerbg1360@3x.webp");
   }
 }
 @media only screen and (min-width: 1360px) {
@@ -1135,12 +1135,12 @@ img {
 }
 @media only screen and (min-width: 1920px) and (min-resolution: 2dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg1920@2x.webp");
+    background-image: url("../img/header/headerbg1920@2x.webp");
   }
 }
 @media only screen and (min-width: 1920px) and (min-resolution: 3dppx) {
   .header__hero {
-    background-image: url("/img/header/headerbg1920@3x.webp");
+    background-image: url("../img/header/headerbg1920@3x.webp");
   }
 }
 @media only screen and (min-width: 1920px) {
